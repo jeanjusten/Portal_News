@@ -5,30 +5,34 @@
   Portal News is a project i made for study web-responsiveness. It's a news portal website, with a clean and responsive design.<br>
   The website have a variety of displays for the news, including grid-displays, side-content and a few carousels sections.
   </p>
-  
+
 <!--Menu-->
 ## :large_orange_diamond: Table of Content
-* [1. Features](#large_orange_diamond-1.-features) 
-  - [1.1 Sticky Side-Bar](#arrow_forward-1.1-sticky-side-bar)
-  - [1.2 Carousel](#arrow_forward-1.2-carousel)
-  - [1.3 Responsiveness](#arrow_forward-1.3-responsiveness)
-* [2. Tools and Technologies](#large_orange_diamond-2.-tools-and-technologies) 
-  - [2.1 Technologies Used](#arrow_forward-2.1-technologies-used)
-  - [2.2 Libraries](#arrow_forward-2.2-libraries)
-* [3. Result](#large_orange_diamond-3.-see-the-page-live-now-on-vercel)
-* [4. Etcetera](#large_orange_diamond-4.-etcetera)
-  - [4.1 About](#arrow_forward-4.1-about)
-  - [4.2 Licenses](#arrow_forward-4.2-licenses)
+- [1. Features](#large_orange_diamond-features)
+  - [1.1 Sticky Side-Bar](#arrow_forward-sticky-side-bar)
+  - [1.2 Carousel](#arrow_forward-carousel)
+  - [1.3 Responsiveness](#arrow_forward-responsiveness)
+    - [1.3.1 Mobile](#small_red_triangle_down-mobile)
+    - [1.3.1 Tablet](#small_red_triangle_down-tablet)
+    - [1.3.1 Desktop](#small_red_triangle_down-desktop)
+- [2. Tools and Technologies](#large_orange_diamond-tools-and-technologies) 
+  - [2.1 Technologies Used](#arrow_forward-technologies-used)
+  - [2.2 Libraries](#arrow_forward-libraries)
+- [3. Result](#large_orange_diamond-see-the-page-live-now-on-vercel)
+  - [3.1 Vercel](#arrow_forward-deploy-on-vercel)
+- [4. Etcetera](#large_orange_diamond-etcetera)
+  - [4.1 About](#arrow_forward-about)
+  - [4.2 Licenses](#arrow_forward-licenses)
 
 <!--Features-->
-## :large_orange_diamond: 1. Features
-### :arrow_forward: 1.1 Sticky Side Bar
+## :large_orange_diamond: Features
+### :arrow_forward: Sticky Side Bar
 ![images/ezgif.com-crop.gif](https://github.com/jeanjusten/Portal_News/blob/main/images/ezgif.com-crop.gif?raw=true)
 <p>
 A Sticky red bar that follows the user in a fixed position through the website. It helps the user to automatically scroll back up to the top of the page.
 </p>
 
-### :arrow_forward: 1.2 Carousel
+### :arrow_forward: Carousel
 <p>
 Slick Carousel Library was implemented in two sections of the website: The Trending, and the Journalists' area.<br>
 On the Trending section, the carousel is set to autoplay the 3 images. Those images are linked to their respective news' article, and both
@@ -41,7 +45,7 @@ headline and the news itself are updated automatically to their corresponding im
 ![images/slick-journalists.gif](https://github.com/jeanjusten/Portal_News/blob/main/images/slick-journalists.gif?raw=true)
 
 
-### :arrow_forward: 1.3 Responsiveness
+### :arrow_forward: Responsiveness
 <p>
 The website have a set of breakpoints of media queries to add responsiveness for the user. 
 The main breakpoints are for Desktop, Tablet and Mobile.  
@@ -60,25 +64,26 @@ The main breakpoints are for Desktop, Tablet and Mobile.
 <p>- Desktop Breakpoint (min-width: 1024px)</p>
 
 <!--Tools Used-->
-## :large_orange_diamond: 2. Tools and Technologies
-### :arrow_forward: 2.1 Technologies Used
+## :large_orange_diamond: Tools and Technologies
+### :arrow_forward: Technologies Used
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery)](https://skillicons.dev)
-### :arrow_forward: 2.2 Libraries
+### :arrow_forward: Libraries
 <a href="https://kenwheeler.github.io/slick/" alt="Visit Slick Carousel documentation">Slick Carousel</a>
 
 <!--Deploy-->
-## :large_orange_diamond: 3. See the page live now on Vercel
+## :large_orange_diamond: See the page live now on Vercel
+### :arrow_forward: Deploy on Vercel 
 <a href="https://portal-news-seven.vercel.app/" alt="See the page live on Vercel now">Portal News - News Website on Vercel</a>
 
 <!--Etcetera-->
-## :large_orange_diamond: 4. Etcetera
-### :arrow_forward: 4.1 About
+## :large_orange_diamond: Etcetera
+### :arrow_forward: About
 <p>
   Portal News is a template website developed by Jean Justen to study web-responsiveness.
   The objective was learning about media queries breakpoints and implement a responsive web-design.
 </p>
 
-### :arrow_forward: 4.2 Licenses
+### :arrow_forward: Licenses
 <p>
   You may use, copy, share and modify the code as you please. No credits needed.
 </p>
