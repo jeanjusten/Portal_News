@@ -1,0 +1,520 @@
+/*============================*/
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*============================*/
+/* MAIN */
+/*============================*/
+#logo{
+    max-height: 45px;
+    margin-left: 28px;
+}
+
+header .portal-name {
+    display: none;
+}
+
+.container-conteudo {
+    max-width: 100%;
+    gap: 15px;
+    margin: 15px 20px;
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo section {
+    padding: 2rem;
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(206, 206, 206, 0.788);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(206, 206, 206, 0.788);
+    box-shadow: -1px 1px 5px 9px rgba(206, 206, 206, 0.788);
+    border-radius: 5px;
+}
+
+.conteudo-barra {
+    margin-bottom: 25px;
+}
+
+.container, .section-jornalistas {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h4 {
+    font-weight: 600;
+}
+
+header .container {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 16px;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    max-width: 1600px;
+    width: 100%;
+    border-bottom: 4px solid black;
+}
+
+.formulario input {
+    background-color: #ececec;
+    border-radius: 6px;
+    height: 23px;
+    padding: 10px;
+    border: 2px solid red;
+    border-color: rgb(226, 226, 226);
+}
+
+.formulario button {
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 23px;
+    width: 80px;
+    background-color: red;
+    color: white;
+}
+
+.formulario button:hover {
+    background-color: red;
+    color: white;
+}
+
+.submenu {
+    z-index: 1;
+    padding: 10px;
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    width: 150px;
+    top: 100.5%;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: red;
+}
+
+.submenu li {
+    display: block;
+    padding: 2px;
+}
+
+/* Apenas os li descendentes diretos do .menu serão afetados (esportes, economia e cultura)*/
+.menu > li { 
+    position: relative;
+    float: left;
+    list-style: none;
+    padding: 20px;
+    border-top: 4px solid transparent;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu li:hover {
+    border-color: red;
+    color: red;
+    font-weight: 800;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Escolhendo a porcentagem que cada coluna ocupará no layout */
+.conteudo {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.noticia {
+    display: block;
+}
+
+.noticia button {
+    max-width: 120px;
+    margin-top: 5px;
+    background-color: red;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.noticia button:hover {
+    text-decoration: underline;
+}
+
+.noticia img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.destaque {
+    margin-bottom: 36px;
+}
+
+.destaque .noticia a {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.noticia a {
+    color: inherit;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.noticia a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.destaque .noticia img {
+    display: block;
+    width:auto;
+    height: auto;
+    margin-right: 8px;
+    max-height: 320px;
+}
+
+section h2 {
+    margin-bottom: 12px;
+}
+
+/* JORNALISTAS */
+.section-jornalistas{
+    margin-top: 34px;
+}
+
+.jornalistas {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.jornalista-img {
+    padding: 0.2rem;
+    height: auto;
+    min-height: 5rem;
+    min-width: 5rem;
+    max-height: 9rem;
+    max-width: 9rem;
+    margin: 0 1rem;
+    filter: grayscale(100%);
+}
+
+.jornalista-img:hover {
+    filter: none;
+    transform: scale(1.05);
+    border-radius: 100%;
+    border: 5px solid red;
+    padding: 0;
+}
+
+.jornalistas-nomes {
+    padding: 0.5rem 0;
+    text-align: center;
+    display: block;
+}
+
+.jornalistas-nomes h4 {
+    margin-top: 7px;
+}
+
+/* COLUNAS */
+.colunas {
+    margin-top: 36px;
+}
+
+.colunas h4 {
+    color: rgb(22, 22, 22);
+}
+
+.colunas h5 {
+    color: rgb(110, 110, 110);
+}
+
+/* ASIDE */
+aside {
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .noticia {
+    margin-bottom: 24px;
+    max-width: 400px;
+}
+
+.noticia-data {
+    display: block;
+}
+
+.noticia-data h5 {
+    color: rgb(102, 102, 102);
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(3, 32.6%);
+    column-gap: 1%;
+    row-gap: 5%;
+    margin-bottom: 35px;
+}
+
+.novidades img {
+    max-height: 320px;
+    object-fit: center;
+}
+
+.aside-noticias img {
+    max-height: 280px;
+}
+
+/* SIDE NAVs */
+.side-nav a {
+    z-index: 1;
+    position: fixed;
+    left: -65px;
+    transition: 0.3s;
+    padding: 6px;
+    width: 90px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .side-nav a:hover {
+    left: 0;
+  }
+
+  .side-nav a img{
+    margin-left: 28px;
+    max-height: 28px;
+  }
+  
+  #sidenav {
+    top: 20px;
+    background-color: red;
+  }
+
+/* FOOTER */
+footer {
+    max-width: 1600px;
+    padding-top: 10px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+/*============================*/
+/* CELULAR */
+/*============================*/
+/*Largura máxima de um celular*/
+@media screen and (max-width: 767px) {
+    .conteudo {
+        display: block;
+    }
+
+    #logo {
+        margin-bottom: 10px;
+    }
+
+    /*Fazendo o container principal ter no máximo 90% da largura do dispositivo */
+    .container {
+        max-width: 90%;
+    }
+    
+    .menu {
+        border-bottom: none;
+    }
+
+    .destaque .noticia a {
+        display: block;
+        font-size: 1.5em;
+    }
+    
+    .destaque .noticia img {
+        margin-right: 0;
+    }
+
+    .noticias {
+        display: block;
+    }
+
+    .noticias .noticia {
+        margin-bottom: 32px;
+    }
+
+    aside {
+        padding-left: 0;
+    }
+
+    .aside-noticias, .aside-noticias article, article a {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    header div.container {
+        flex-direction: column;
+    }
+    
+    .submenu {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    
+    .submenu a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .submenu a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    .submenu li {
+        display: block;
+        padding: 2px;
+    }
+    
+    /*Criando um Botão para o submenu*/
+    .menu {
+        display: none;
+    }
+
+    .menu > li { 
+        clear: both;
+    }   
+
+    .botao-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .botao-menu button {
+        padding: 8px;
+        margin-top: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .botao-menu button:hover {
+        padding: 8px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+/*============================*/
+/* TABLET */
+/*============================*/
+/*Largura máxima de um Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*Fazendo o container principal ter no máximo 90% da largura do dispositivo */
+    .container {
+        max-width: 90%;
+    }
+    
+    .botao-menu {
+        display: none;
+    }
+
+    .destaque .noticia a {
+        font-size: 1.5em;
+    }
+
+    .noticias {
+        grid-template-columns: (repeat 2,49%);
+    }
+}
+
+/*============================*/
+/* IPAD */
+/*============================*/
+@media screen and (min-width: 769px) and (max-width: 1240px) {
+    /*Fazendo o container principal ter no máximo 90% da largura do dispositivo */
+    .container {
+        max-width: 90%;
+    }
+
+    .destaque .noticia a {
+        display: block;
+        font-size: 1.5em;
+    }
+    
+    .botao-menu {
+        display: none;
+    }
+
+    .destaque .noticia a {
+        font-size: 1.5em;
+    }
+
+    .noticias {
+        grid-template-columns: (repeat 2,49%);
+    }
+}
+
+/*============================*/
+/* DESKTOP */
+/*============================*/
+@media screen and (min-width: 1024px) {
+    .botao-menu {
+        display: none;
+    }
+
+    header .portal-name {
+        color:black;
+        font-family: "Oswald", sans-serif;
+        font-size: 2rem;
+        font-weight: 900;
+        display: flex;
+    }
+}

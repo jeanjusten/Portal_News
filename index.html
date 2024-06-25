@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal News - Notícias do Dia</title>
+    <!--Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"> <!--CSS-->
+    <!--Biblioteca do Slick-Carousel-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <div class="side-nav" id="home">
+        <a href="#home"" id="sidenav">
+            <img src="./images/home_icon.png" id="home-icon" draggable="false">
+        </a>
+    </div>
+    <header class="home">
+        <div class="container-conteudo">
+            <img id="logo" src="./images/logo_portal.png" alt="Logotipo Portal News" draggable="false">
+            <h2 class="portal-name">:PORTAL NEWS:</h2>
+            <form class="formulario">
+                <input type="search" placeholder="Busque no site">
+                <button type="submit">Pesquisar</button>
+            </form>
+            <div class="botao-menu">
+                <button type="button">☰</button>
+            </div>
+        </div>
+        <!--Barra de Navegação-->
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    <h4>ESPORTES</h4>
+                    <ul class="submenu">
+                        <li><a href="#">Futebol</a></li>
+                        <li><a href="#">Basquete</a></li>
+                        <li><a href="#">Vôlei</a></li>
+                        <li><a href="#">Outros</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>ECONOMIA</h4>
+                    <ul class="submenu">
+                        <li><a href="#">Bolsa de Valores</a></li>
+                        <li><a href="#">Imposto de Renda</a></li>
+                        <li><a href="#">Finanças</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>POLÍTICA</h4>
+                    <ul class="submenu">
+                        <li><a href="#">Senado</a></li>
+                        <li><a href="#">Palácio</a></li>
+                        <li><a href="#">Outros</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>CULTURA</h4>
+                    <ul class="submenu">
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Eventos</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <!--Conteúdo em Destaque-->
+    <div class="conteudo">
+        <main class="conteudo-barra">
+            <section class="destaque">
+                <h2>Em Destaque</h2>
+                <article class="noticia">
+                        <a href="#">
+                            <div id="carousel-images">
+                                <img src="./images/guerra_ucrania_russia.png" id="img01" alt="Soldado Ucraniano" draggable="false">
+                                <img src="./images/dolar_bolsa.png" id="img02" alt="Dólar americano" draggable="false">
+                                <img src="./images/elon_musk_ia.png" id="img03" alt="Elon Musk" draggable="false">
+                            </div>
+                            <h3 id="dynamic-h3">Guerra da Ucrânia x Rússia chega ao fim</h3>
+                        </a>
+                        <p id="dynamic-p">Após 23 meses de duração, o conflito entre Ucrânia e Rússia finalmente chega ao fim com acordo entre Putin e Zelenskyy.</p>
+                        <a href="#" id="botao-leia-mais"><button type="button">Continue lendo</button></a>
+                </article>
+            </section>
+            <!--Seção de Novidades-->
+            <section class="aside-noticias">
+                <h2>Últimas Notícias</h2>
+                <div class="noticias">
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/brasil_sustentabilidade.png"/>
+                            <h3>Brasil lidera ranking de sustentabilidade em 2024</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/arquitetura_engenharia.png"/>
+                            <h3>Profissões em alta: saiba mais sobre Arquitetura e Engenharia civil</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/balneario_camboriu.png"/>
+                            <h3>Balneário Camboriú é o destino mais visado para jovens neste fim de ano</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/quina_sao_joao.png"/>
+                            <h3>Quina de São João tem ganhador na cidade de São Mateus do Sul-PR</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/frente_fria.jpg"/>
+                            <h3>Curitiba tem previsão de chuva para todo o mês de Outubro</h3>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/neymar_santos.png"/>
+                            <h3>Neymar assina contrato e volta a jogar no Santos F.C</h3>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <!--Seção de Jornalistas-->
+            <section class="section-jornalistas">
+                <h2>Conheça a Equipe da Portal News</h2>
+                <div class="jornalistas" id="carousel-jornalistas">
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista1.png" class="jornalista-img" alt="foto de um jornalista" draggable="false">
+                        <h4>Jorge Ribeiro</h4>
+                    </div>
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista2.png" class="jornalista-img" alt="foto de uma jornalista" draggable="false">
+                        <h4>Ana Paula Ferraz</h4>
+                    </div>
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista3.png" class="jornalista-img" alt="foto de uma jornalista" draggable="false">
+                        <h4>Érica Martins</h4>
+                    </div>
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista4.png" class="jornalista-img" alt="foto de um jornalista" draggable="false">
+                        <h4>Daniel Prado</h4>
+                    </div>
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista5.png" class="jornalista-img" alt="foto de um jornalista" draggable="false">
+                        <h4>Carlos Alberto Miranda</h4>
+                    </div>
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista6.png" class="jornalista-img" alt="foto de uma jornalista" draggable="false">
+                        <h4>Flávia Dias</h4>
+                    </div>
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista7.png" class="jornalista-img" alt="foto de uma jornalista" draggable="false">
+                        <h4>Amanda Carvalho</h4>
+                    </div>
+                    <div class="jornalistas-nomes">
+                        <img src="./images/jornalista8.png" class="jornalista-img" alt="foto de um jornalista" draggable="false">
+                        <h4>Amauri Barbosa</h4>
+                    </div>
+                </div>
+            </section>
+            <!--Seção de Colunistas-->
+            <section class="colunas">
+                <h2>Opinião</h2>
+                <div class="noticias">
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/brasil_sustentabilidade.png"/>
+                            <h3>Brasil lidera ranking de sustentabilidade em 2024</h3>
+                        </a>
+                        <h4>Blábáblaá</h4>
+                        <h5>Publicado em 21/10/2024</h5>
+                        <a href="#" id="botao-leia-mais-opiniao"><button type="button">Continue lendo</button></a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/arquitetura_engenharia.png"/>
+                            <h3>Profissões em alta: saiba mais sobre Arquitetura e Engenharia civil</h3>
+                        </a>
+                        <h4>Blábáblaá</h4>
+                        <h5>Publicado em 18/10/2024</h5>
+                        <a href="#" id="botao-leia-mais-opiniao"><button type="button">Continue lendo</button></a>
+                    </article>
+                    <article class="noticia">
+                        <a href="#">
+                            <img src="./images/arquitetura_engenharia.png"/>
+                            <h3>Profissões em alta: saiba mais sobre Arquitetura e Engenharia civil</h3>
+                        </a>
+                        <h4>Blábáblaá</h4>
+                        <h5>Publicado em 10/10/2024</h5>
+                        <a href="#" id="botao-leia-mais-opiniao"><button type="button">Continue lendo</button></a>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <!--Conteúdo Lateral-->
+        <aside>
+            <section class="novidades">
+                <h2>Novidades</h2>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="./images/salario_minimo.png"/>
+                        <div class="noticia-data">
+                            <h3>Senado vota proposta de aumento ao salário mínimo</h3>
+                            <h5>(12/10/2024)</h5>
+                        </div>
+                        </a>
+                </article>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="./images/paris_fashion_week.png"/>
+                        <div class="noticia-data">
+                            <h3>Modelo de São Mateus do Sul desfila na Paris Fashion Week</h3>
+                            <h5>(11/10/2024)</h5>
+                        </div>
+                    </a>
+                </article>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="./images/harry_potter_filme.png"/>
+                        <div class="noticia-data">
+                            <h3>Rumores sobre o novo filme da franquia Harry Potter são confirmados</h3>
+                            <h5>(09/10/2024)</h5>
+                        </div>
+                    </a>
+                </article>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="./images/ovnis_brasil.png"/>
+                        <div class="noticia-data">
+                            <h3>OVNIS sobrevoam os céus e assustam moradores de São Paulo</h3>
+                            <h5>(03/09/2024)</h5>
+                        </div>
+                    </a>
+                </article>
+            </section>
+        </aside>
+    </div>
+    <!--Rodapé-->
+    <footer>
+        <h4> PortalNews.com</h4>
+        <h5>&copy;2024 News Portal. Um site da NewTale Studio. Todos os direitos reservados.<br>
+            NewTale Studio ™ & © 2024 News Portal.</h5>
+    </footer>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--Slick Carroussel-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+    <!--Javascript-->
+    <script src="./main.js"></script>
+</body>
+</html>
