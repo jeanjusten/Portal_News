@@ -16,10 +16,10 @@
     - [1.3.1 Tablet](#small_red_triangle_down-tablet)
     - [1.3.1 Desktop](#small_red_triangle_down-desktop)
 - [2. Tools and Technologies](#large_orange_diamond-tools-and-technologies) 
-  - [2.1 Technologies Used](#arrow_forward-technologies-used)
+  - [2.1 Stacks Used](#arrow_forward-stacks-used)
   - [2.2 Libraries](#arrow_forward-libraries)
-- [3. Result](#large_orange_diamond-see-the-page-live-now-on-vercel)
-  - [3.1 Vercel](#arrow_forward-deploy-on-vercel)
+- [3. Result](#large_orange_diamond-result)
+  - [3.1 Deploy on Vercel](#arrow_forward-deploy-on-vercel)
 - [4. Etcetera](#large_orange_diamond-etcetera)
   - [4.1 About](#arrow_forward-about)
   - [4.2 Licenses](#arrow_forward-licenses)
@@ -65,13 +65,13 @@ The main breakpoints are for Desktop, Tablet and Mobile.
 
 <!--Tools Used-->
 ## :large_orange_diamond: Tools and Technologies
-### :arrow_forward: Technologies Used
+### :arrow_forward: Stacks Used
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery)](https://skillicons.dev)
 ### :arrow_forward: Libraries
 <a href="https://kenwheeler.github.io/slick/" alt="Visit Slick Carousel documentation">Slick Carousel</a>
 
 <!--Deploy-->
-## :large_orange_diamond: See the page live now on Vercel
+## :large_orange_diamond: Result
 ### :arrow_forward: Deploy on Vercel 
 <a href="https://portal-news-seven.vercel.app/" alt="See the page live on Vercel now">Portal News - News Website on Vercel</a>
 
