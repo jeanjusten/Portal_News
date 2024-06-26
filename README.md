@@ -68,12 +68,12 @@ The main breakpoints are for Desktop, Tablet and Mobile.
 ### :arrow_forward: Stacks Used
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery)](https://skillicons.dev)
 ### :arrow_forward: Libraries
-<a href="https://kenwheeler.github.io/slick/" alt="Visit Slick Carousel documentation">Slick Carousel</a>
+* <a href="https://kenwheeler.github.io/slick/" alt="Visit Slick Carousel documentation">Slick Carousel</a>
 
 <!--Deploy-->
 ## :large_orange_diamond: Result
 ### :arrow_forward: Deploy on Vercel 
-<a href="https://portal-news-seven.vercel.app/" alt="See the page live on Vercel now">Portal News - News Website on Vercel</a>
+* <a href="https://portal-news-seven.vercel.app/" alt="See the page live on Vercel now">Portal News - News Website on Vercel</a>
 
 <!--Etcetera-->
 ## :large_orange_diamond: Etcetera
