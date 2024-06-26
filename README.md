@@ -1,6 +1,6 @@
 <!--Title Image-->
 ![images/ezgif.com-video-to-gif-converter.gif](https://github.com/jeanjusten/Portal_News/blob/main/images/ezgif.com-video-to-gif-converter.gif?raw=true)
-# :computer: News Website - PortalNews
+# :computer: PortalNews - News Website 
   <p>
   Portal News is a project i made for study web-responsiveness. It's a news portal website, with a clean and responsive design.<br>
   The website have a variety of displays for the news, including grid-displays, side-content and a few carousels sections.
