@@ -68,6 +68,7 @@ The main breakpoints are for Desktop, Tablet and Mobile.
 ### :arrow_forward: Stacks Used
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery)](https://skillicons.dev)
 ### :arrow_forward: Libraries
+* <a href="https://jquery.com/" alt="Visit JQuery documentation">JQuery</a>
 * <a href="https://kenwheeler.github.io/slick/" alt="Visit Slick Carousel documentation">Slick Carousel</a>
 
 <!--Deploy-->
